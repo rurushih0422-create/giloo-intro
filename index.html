@@ -62,6 +62,8 @@
   .lead + .zh{margin-top:.75rem;}
   .zh + .lead{margin-top:1.4rem;}
   .zh.wide{max-width:none;}
+  /* .cols .col p and ol.steps p set the Latin sans; the Chinese line must win it back */
+  .cols .col p.zh,.cols .col .zh,ol.steps p.zh,ol.steps .zh,ul.rows .zh,ul.checks .zh,ol.agenda .zh,.f-row .zh{font-family:var(--cjk-sans);font-weight:300;}
   .slide.dark .zh,.slide.accent .zh{color:rgba(255,255,255,.62);}
   .slide.photoslide .zh{color:rgba(255,255,255,.78);}
 
